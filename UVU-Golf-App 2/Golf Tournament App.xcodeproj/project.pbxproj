@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E3917BD2A004F4300F52BC6 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3917BC2A004F4300F52BC6 /* Animations.swift */; };
+		6E3917BF2A004FBA00F52BC6 /* CustomLoadCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3917BE2A004FBA00F52BC6 /* CustomLoadCircle.swift */; };
+		6E3917C32A02A6F700F52BC6 /* Golf-Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3917C22A02A6F700F52BC6 /* Golf-Teams.swift */; };
+		6E3917C52A02A80500F52BC6 /* Create-Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3917C42A02A80500F52BC6 /* Create-Team.swift */; };
+		6E67064F29B656120011A30F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67064E29B656120011A30F /* Colors.swift */; };
+		6E67065129B6563B0011A30F /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67065029B6563B0011A30F /* CustomViewModifiers.swift */; };
+		6E7C17E229E35F7B00960CA3 /* EventPlannerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C17E129E35F7B00960CA3 /* EventPlannerSettingsView.swift */; };
+		6E7C17E429E38AA500960CA3 /* HoleManagerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C17E329E38AA500960CA3 /* HoleManagerSettingsView.swift */; };
+		6EB2C81B29D7285A00D4654F /* HoleManagerInitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2C81A29D7285A00D4654F /* HoleManagerInitialScreen.swift */; };
+		6EC5D40E29EED7A900288478 /* EventsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC5D40D29EED7A900288478 /* EventsTabView.swift */; };
+		6EFCBAED29B783F400EDBB79 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCBAEC29B783F400EDBB79 /* SignUp.swift */; };
+		750D884029B7F5CA00D2B769 /* Golf Scores-Type of Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D883F29B7F5CA00D2B769 /* Golf Scores-Type of Search.swift */; };
+		750D884229B7FAE000D2B769 /* Golf Scores- Team Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D884129B7FAE000D2B769 /* Golf Scores- Team Leaderboard.swift */; };
+		750D884A29B8D69700D2B769 /* Golf Scores- Contests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D884929B8D69700D2B769 /* Golf Scores- Contests.swift */; };
+		750D888A29BAA05700D2B769 /* Golf Scores-Sponser Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D888929BAA05700D2B769 /* Golf Scores-Sponser Leaderboard.swift */; };
+		75BDC6EE29C2BEAA0041D97B /* Manage- Enter Team Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDC6ED29C2BEAA0041D97B /* Manage- Enter Team Scores.swift */; };
+		75BDC70929CA4C9D0041D97B /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDC70829CA4C9D0041D97B /* FirestoreManager.swift */; };
+		9F09D3612A002C3A00045F6F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9F09D3602A002C3A00045F6F /* FirebaseAuth */; };
+		9F09D3632A002C3A00045F6F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9F09D3622A002C3A00045F6F /* FirebaseDatabase */; };
+		9F09D3652A002C3A00045F6F /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F09D3642A002C3A00045F6F /* FirebaseDatabaseSwift */; };
+		9F09D3672A002C3A00045F6F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9F09D3662A002C3A00045F6F /* FirebaseFirestore */; };
+		9F09D3692A002C3A00045F6F /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 9F09D3682A002C3A00045F6F /* FirebaseFirestoreCombine-Community */; };
+		9F09D36B2A002C3A00045F6F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F09D36A2A002C3A00045F6F /* FirebaseFirestoreSwift */; };
+		9F0ED83D29CCE4A1000E9904 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0ED83C29CCE4A1000E9904 /* TestView.swift */; };
+		9F679EB129CBA92C007C3134 /* ReadFromFireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F679EB029CBA92C007C3134 /* ReadFromFireBase.swift */; };
+		9F83F52F29E4AA56001ED785 /* HoleManagerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F83F52E29E4AA56001ED785 /* HoleManagerTabView.swift */; };
+		9FA7E84229C39420005FF241 /* AdminEventScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7E84129C39420005FF241 /* AdminEventScreen.swift */; };
+		9FB1229A29BAE32100D7C857 /* Event Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1229929BAE32100D7C857 /* Event Dashboard.swift */; };
+		9FBD95D129C0B9F000EF8032 /* CreateEventDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD95D029C0B9F000EF8032 /* CreateEventDashboard.swift */; };
+		A34BE43629B1359C001A74E0 /* Golf_Tournament_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BE43529B1359C001A74E0 /* Golf_Tournament_AppApp.swift */; };
+		A34BE43829B1359C001A74E0 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BE43729B1359C001A74E0 /* SignIn.swift */; };
+		A34BE43A29B1359D001A74E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34BE43929B1359D001A74E0 /* Assets.xcassets */; };
+		A34BE43D29B1359D001A74E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34BE43C29B1359D001A74E0 /* Preview Assets.xcassets */; };
+		A3DC369829B66A6E00976179 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3DC369729B66A6E00976179 /* GoogleService-Info.plist */; };
+		EA8A032929BF66670073CAF9 /* HoleDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A032829BF66670073CAF9 /* HoleDataStructure.swift */; };
+		EA8A032B29BF66F30073CAF9 /* ContestDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A032A29BF66F30073CAF9 /* ContestDataStructure.swift */; };
+		EA8A032D29BF67610073CAF9 /* WhoWinsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A032C29BF67610073CAF9 /* WhoWinsEnum.swift */; };
+		EA8A032F29BF67790073CAF9 /* PlayerDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A032E29BF67790073CAF9 /* PlayerDataStructure.swift */; };
+		EA8A033329C0BA3A0073CAF9 /* EventDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A033229C0BA3A0073CAF9 /* EventDataStructure.swift */; };
+		EA8A034729CB56AC0073CAF9 /* WriteToFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A034629CB56AC0073CAF9 /* WriteToFirebase.swift */; };
+		EAD172E929BB80EA00331A5A /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD172E829BB80EA00331A5A /* BackgroundView.swift */; };
+		EAD172EB29BB871C00331A5A /* ManageHoleSettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD172EA29BB871C00331A5A /* ManageHoleSettingsScreenView.swift */; };
+		EAD172ED29BB877C00331A5A /* EventsTabGameSettingsScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD172EC29BB877C00331A5A /* EventsTabGameSettingsScreenOne.swift */; };
+		EAD172EF29BB8A8300331A5A /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD172EE29BB8A8300331A5A /* InfoTextView.swift */; };
+		EAD172F229BB8ED100331A5A /* EventsTabAddViewHoleManagerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD172F129BB8ED100331A5A /* EventsTabAddViewHoleManagerScreenView.swift */; };
+		EAD172F429BB931900331A5A /* BigWhiteTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD172F329BB931800331A5A /* BigWhiteTextView.swift */; };
+		EAD172F629BB973700331A5A /* RedTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD172F529BB973700331A5A /* RedTextFieldView.swift */; };
+		EAD172F829BB995E00331A5A /* RedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD172F729BB995D00331A5A /* RedButtonView.swift */; };
+		EAEF502E29F818AE00E4C34A /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEF502D29F818AE00E4C34A /* UserStruct.swift */; };
+		EAEF50362A0163B700E4C34A /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEF50352A0163B700E4C34A /* EventDetailView.swift */; };
+		EAEF50382A03317000E4C34A /* SafeArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEF50372A03317000E4C34A /* SafeArrayExtension.swift */; };
+		EAEF503E2A05D06800E4C34A /* EventPlannerPresentPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEF503D2A05D06800E4C34A /* EventPlannerPresentPlayers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E3917BC2A004F4300F52BC6 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		6E3917BE2A004FBA00F52BC6 /* CustomLoadCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadCircle.swift; sourceTree = "<group>"; };
+		6E3917C22A02A6F700F52BC6 /* Golf-Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Golf-Teams.swift"; sourceTree = "<group>"; };
+		6E3917C42A02A80500F52BC6 /* Create-Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create-Team.swift"; sourceTree = "<group>"; };
+		6E67064E29B656120011A30F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6E67065029B6563B0011A30F /* CustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiers.swift; sourceTree = "<group>"; };
+		6E7C17E129E35F7B00960CA3 /* EventPlannerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPlannerSettingsView.swift; sourceTree = "<group>"; };
+		6E7C17E329E38AA500960CA3 /* HoleManagerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleManagerSettingsView.swift; sourceTree = "<group>"; };
+		6EB2C81A29D7285A00D4654F /* HoleManagerInitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleManagerInitialScreen.swift; sourceTree = "<group>"; };
+		6EC5D40D29EED7A900288478 /* EventsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTabView.swift; sourceTree = "<group>"; };
+		6EFCBAEC29B783F400EDBB79 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		750D883D29B7F57A00D2B769 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		750D883F29B7F5CA00D2B769 /* Golf Scores-Type of Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Golf Scores-Type of Search.swift"; sourceTree = "<group>"; };
+		750D884129B7FAE000D2B769 /* Golf Scores- Team Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Golf Scores- Team Leaderboard.swift"; sourceTree = "<group>"; };
+		750D884529B7FB6900D2B769 /* Golf Scores- Poker Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Golf Scores- Poker Leaderboard.swift"; sourceTree = "<group>"; };
+		750D884929B8D69700D2B769 /* Golf Scores- Contests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Golf Scores- Contests.swift"; sourceTree = "<group>"; };
+		750D888929BAA05700D2B769 /* Golf Scores-Sponser Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Golf Scores-Sponser Leaderboard.swift"; sourceTree = "<group>"; };
+		75BDC6ED29C2BEAA0041D97B /* Manage- Enter Team Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manage- Enter Team Scores.swift"; sourceTree = "<group>"; };
+		75BDC70829CA4C9D0041D97B /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		9F0ED83C29CCE4A1000E9904 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		9F5C3C8D29C2AA9A002A4E80 /* EventObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventObject.swift; sourceTree = "<group>"; };
+		9F679EB029CBA92C007C3134 /* ReadFromFireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromFireBase.swift; sourceTree = "<group>"; };
+		9F83F52E29E4AA56001ED785 /* HoleManagerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleManagerTabView.swift; sourceTree = "<group>"; };
+		9FA7E84129C39420005FF241 /* AdminEventScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminEventScreen.swift; sourceTree = "<group>"; };
+		9FB1229929BAE32100D7C857 /* Event Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event Dashboard.swift"; sourceTree = "<group>"; };
+		9FBD95D029C0B9F000EF8032 /* CreateEventDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventDashboard.swift; sourceTree = "<group>"; };
+		A34BE43229B1359C001A74E0 /* Golf Tournament App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Tournament App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34BE43529B1359C001A74E0 /* Golf_Tournament_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf_Tournament_AppApp.swift; sourceTree = "<group>"; };
+		A34BE43729B1359C001A74E0 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		A34BE43929B1359D001A74E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34BE43C29B1359D001A74E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3DC369729B66A6E00976179 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA8A032829BF66670073CAF9 /* HoleDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleDataStructure.swift; sourceTree = "<group>"; };
+		EA8A032A29BF66F30073CAF9 /* ContestDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestDataStructure.swift; sourceTree = "<group>"; };
+		EA8A032C29BF67610073CAF9 /* WhoWinsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoWinsEnum.swift; sourceTree = "<group>"; };
+		EA8A032E29BF67790073CAF9 /* PlayerDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDataStructure.swift; sourceTree = "<group>"; };
+		EA8A033229C0BA3A0073CAF9 /* EventDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDataStructure.swift; sourceTree = "<group>"; };
+		EA8A034629CB56AC0073CAF9 /* WriteToFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteToFirebase.swift; sourceTree = "<group>"; };
+		EAD172E829BB80EA00331A5A /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		EAD172EA29BB871C00331A5A /* ManageHoleSettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageHoleSettingsScreenView.swift; sourceTree = "<group>"; };
+		EAD172EC29BB877C00331A5A /* EventsTabGameSettingsScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTabGameSettingsScreenOne.swift; sourceTree = "<group>"; };
+		EAD172EE29BB8A8300331A5A /* InfoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextView.swift; sourceTree = "<group>"; };
+		EAD172F129BB8ED100331A5A /* EventsTabAddViewHoleManagerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTabAddViewHoleManagerScreenView.swift; sourceTree = "<group>"; };
+		EAD172F329BB931800331A5A /* BigWhiteTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigWhiteTextView.swift; sourceTree = "<group>"; };
+		EAD172F529BB973700331A5A /* RedTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedTextFieldView.swift; sourceTree = "<group>"; };
+		EAD172F729BB995D00331A5A /* RedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedButtonView.swift; sourceTree = "<group>"; };
+		EAEF502D29F818AE00E4C34A /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		EAEF50352A0163B700E4C34A /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		EAEF50372A03317000E4C34A /* SafeArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArrayExtension.swift; sourceTree = "<group>"; };
+		EAEF503D2A05D06800E4C34A /* EventPlannerPresentPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPlannerPresentPlayers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A34BE42F29B1359C001A74E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F09D3652A002C3A00045F6F /* FirebaseDatabaseSwift in Frameworks */,
+				9F09D3672A002C3A00045F6F /* FirebaseFirestore in Frameworks */,
+				9F09D3632A002C3A00045F6F /* FirebaseDatabase in Frameworks */,
+				9F09D3692A002C3A00045F6F /* FirebaseFirestoreCombine-Community in Frameworks */,
+				9F09D3612A002C3A00045F6F /* FirebaseAuth in Frameworks */,
+				9F09D36B2A002C3A00045F6F /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E67064D29B656080011A30F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6E67064E29B656120011A30F /* Colors.swift */,
+				EAEF50372A03317000E4C34A /* SafeArrayExtension.swift */,
+				6E67065029B6563B0011A30F /* CustomViewModifiers.swift */,
+				EA8A034629CB56AC0073CAF9 /* WriteToFirebase.swift */,
+				9F679EB029CBA92C007C3134 /* ReadFromFireBase.swift */,
+				6E3917BC2A004F4300F52BC6 /* Animations.swift */,
+				6E3917BE2A004FBA00F52BC6 /* CustomLoadCircle.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EB2C81C29D7286400D4654F /* HoleManagerScreens */ = {
+			isa = PBXGroup;
+			children = (
+				EAD172EA29BB871C00331A5A /* ManageHoleSettingsScreenView.swift */,
+				9F83F52E29E4AA56001ED785 /* HoleManagerTabView.swift */,
+				6EB2C81A29D7285A00D4654F /* HoleManagerInitialScreen.swift */,
+				6E7C17E329E38AA500960CA3 /* HoleManagerSettingsView.swift */,
+			);
+			path = HoleManagerScreens;
+			sourceTree = "<group>";
+		};
+		9F2DCD4629C8D2D400F43D86 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C3C8D29C2AA9A002A4E80 /* EventObject.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		9FBD95D229C0BB0900EF8032 /* Event Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				9FA7E84129C39420005FF241 /* AdminEventScreen.swift */,
+				9FBD95D029C0B9F000EF8032 /* CreateEventDashboard.swift */,
+				9FB1229929BAE32100D7C857 /* Event Dashboard.swift */,
+				6EC5D40D29EED7A900288478 /* EventsTabView.swift */,
+				EAEF50352A0163B700E4C34A /* EventDetailView.swift */,
+				EAEF503D2A05D06800E4C34A /* EventPlannerPresentPlayers.swift */,
+			);
+			path = "Event Dashboard";
+			sourceTree = "<group>";
+		};
+		A34BE42929B1359C001A74E0 = {
+			isa = PBXGroup;
+			children = (
+				A34BE43429B1359C001A74E0 /* Golf Tournament App */,
+				A34BE43329B1359C001A74E0 /* Products */,
+				9F2DCD4629C8D2D400F43D86 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		A34BE43329B1359C001A74E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34BE43229B1359C001A74E0 /* Golf Tournament App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34BE43429B1359C001A74E0 /* Golf Tournament App */ = {
+			isa = PBXGroup;
+			children = (
+				6EB2C81C29D7286400D4654F /* HoleManagerScreens */,
+				9F0ED83C29CCE4A1000E9904 /* TestView.swift */,
+				6E67064D29B656080011A30F /* Extensions */,
+				A34BE43529B1359C001A74E0 /* Golf_Tournament_AppApp.swift */,
+				6E3917C22A02A6F700F52BC6 /* Golf-Teams.swift */,
+				6E3917C42A02A80500F52BC6 /* Create-Team.swift */,
+				750D883F29B7F5CA00D2B769 /* Golf Scores-Type of Search.swift */,
+				750D884929B8D69700D2B769 /* Golf Scores- Contests.swift */,
+				750D888929BAA05700D2B769 /* Golf Scores-Sponser Leaderboard.swift */,
+				750D884129B7FAE000D2B769 /* Golf Scores- Team Leaderboard.swift */,
+				75BDC6ED29C2BEAA0041D97B /* Manage- Enter Team Scores.swift */,
+				750D884529B7FB6900D2B769 /* Golf Scores- Poker Leaderboard.swift */,
+				EAD172F029BB8B6300331A5A /* Custom View Modifiers */,
+				75BDC70829CA4C9D0041D97B /* FirestoreManager.swift */,
+				750D883D29B7F57A00D2B769 /* Info.swift */,
+				A3DC369729B66A6E00976179 /* GoogleService-Info.plist */,
+				9FBD95D229C0BB0900EF8032 /* Event Dashboard */,
+				EA8A032529BF61350073CAF9 /* Data Structures */,
+				6EFCBAEC29B783F400EDBB79 /* SignUp.swift */,
+				A34BE43729B1359C001A74E0 /* SignIn.swift */,
+				EAD172EC29BB877C00331A5A /* EventsTabGameSettingsScreenOne.swift */,
+				6E7C17E129E35F7B00960CA3 /* EventPlannerSettingsView.swift */,
+				EAD172F129BB8ED100331A5A /* EventsTabAddViewHoleManagerScreenView.swift */,
+				A34BE43929B1359D001A74E0 /* Assets.xcassets */,
+				A34BE43B29B1359D001A74E0 /* Preview Content */,
+			);
+			path = "Golf Tournament App";
+			sourceTree = "<group>";
+		};
+		A34BE43B29B1359D001A74E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A34BE43C29B1359D001A74E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA8A032529BF61350073CAF9 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF502D29F818AE00E4C34A /* UserStruct.swift */,
+				EA8A033229C0BA3A0073CAF9 /* EventDataStructure.swift */,
+				EA8A032829BF66670073CAF9 /* HoleDataStructure.swift */,
+				EA8A032E29BF67790073CAF9 /* PlayerDataStructure.swift */,
+				EA8A032A29BF66F30073CAF9 /* ContestDataStructure.swift */,
+				EA8A032C29BF67610073CAF9 /* WhoWinsEnum.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		EAD172F029BB8B6300331A5A /* Custom View Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				EAD172E829BB80EA00331A5A /* BackgroundView.swift */,
+				EAD172EE29BB8A8300331A5A /* InfoTextView.swift */,
+				EAD172F329BB931800331A5A /* BigWhiteTextView.swift */,
+				EAD172F529BB973700331A5A /* RedTextFieldView.swift */,
+				EAD172F729BB995D00331A5A /* RedButtonView.swift */,
+			);
+			path = "Custom View Modifiers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A34BE43129B1359C001A74E0 /* Golf Tournament App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34BE44029B1359D001A74E0 /* Build configuration list for PBXNativeTarget "Golf Tournament App" */;
+			buildPhases = (
+				A34BE42E29B1359C001A74E0 /* Sources */,
+				A34BE42F29B1359C001A74E0 /* Frameworks */,
+				A34BE43029B1359C001A74E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golf Tournament App";
+			packageProductDependencies = (
+				9F09D3602A002C3A00045F6F /* FirebaseAuth */,
+				9F09D3622A002C3A00045F6F /* FirebaseDatabase */,
+				9F09D3642A002C3A00045F6F /* FirebaseDatabaseSwift */,
+				9F09D3662A002C3A00045F6F /* FirebaseFirestore */,
+				9F09D3682A002C3A00045F6F /* FirebaseFirestoreCombine-Community */,
+				9F09D36A2A002C3A00045F6F /* FirebaseFirestoreSwift */,
+			);
+			productName = "Golf Tournament App";
+			productReference = A34BE43229B1359C001A74E0 /* Golf Tournament App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A34BE42A29B1359C001A74E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A34BE43129B1359C001A74E0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A34BE42D29B1359C001A74E0 /* Build configuration list for PBXProject "Golf Tournament App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A34BE42929B1359C001A74E0;
+			packageReferences = (
+				9F09D35F2A002C3A00045F6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A34BE43329B1359C001A74E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A34BE43129B1359C001A74E0 /* Golf Tournament App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A34BE43029B1359C001A74E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34BE43D29B1359D001A74E0 /* Preview Assets.xcassets in Resources */,
+				A3DC369829B66A6E00976179 /* GoogleService-Info.plist in Resources */,
+				A34BE43A29B1359D001A74E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A34BE42E29B1359C001A74E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750D888A29BAA05700D2B769 /* Golf Scores-Sponser Leaderboard.swift in Sources */,
+				6E7C17E229E35F7B00960CA3 /* EventPlannerSettingsView.swift in Sources */,
+				750D884029B7F5CA00D2B769 /* Golf Scores-Type of Search.swift in Sources */,
+				75BDC70929CA4C9D0041D97B /* FirestoreManager.swift in Sources */,
+				75BDC6EE29C2BEAA0041D97B /* Manage- Enter Team Scores.swift in Sources */,
+				750D884A29B8D69700D2B769 /* Golf Scores- Contests.swift in Sources */,
+				750D884A29B8D69700D2B769 /* Golf Scores- Contests.swift in Sources */,
+				A34BE43629B1359C001A74E0 /* Golf_Tournament_AppApp.swift in Sources */,
+				750D884229B7FAE000D2B769 /* Golf Scores- Team Leaderboard.swift in Sources */,
+				EAD172F629BB973700331A5A /* RedTextFieldView.swift in Sources */,
+				EAD172F229BB8ED100331A5A /* EventsTabAddViewHoleManagerScreenView.swift in Sources */,
+				6EC5D40E29EED7A900288478 /* EventsTabView.swift in Sources */,
+				EAD172EF29BB8A8300331A5A /* InfoTextView.swift in Sources */,
+				EAD172F829BB995E00331A5A /* RedButtonView.swift in Sources */,
+				EAEF503E2A05D06800E4C34A /* EventPlannerPresentPlayers.swift in Sources */,
+				EAEF50382A03317000E4C34A /* SafeArrayExtension.swift in Sources */,
+				6E3917BF2A004FBA00F52BC6 /* CustomLoadCircle.swift in Sources */,
+				6EB2C81B29D7285A00D4654F /* HoleManagerInitialScreen.swift in Sources */,
+				9F83F52F29E4AA56001ED785 /* HoleManagerTabView.swift in Sources */,
+				EAD172ED29BB877C00331A5A /* EventsTabGameSettingsScreenOne.swift in Sources */,
+				6E3917C32A02A6F700F52BC6 /* Golf-Teams.swift in Sources */,
+				EA8A032929BF66670073CAF9 /* HoleDataStructure.swift in Sources */,
+				9FBD95D129C0B9F000EF8032 /* CreateEventDashboard.swift in Sources */,
+				EA8A032F29BF67790073CAF9 /* PlayerDataStructure.swift in Sources */,
+				6E3917BD2A004F4300F52BC6 /* Animations.swift in Sources */,
+				9F679EB129CBA92C007C3134 /* ReadFromFireBase.swift in Sources */,
+				EA8A032D29BF67610073CAF9 /* WhoWinsEnum.swift in Sources */,
+				EA8A033329C0BA3A0073CAF9 /* EventDataStructure.swift in Sources */,
+				EAEF50362A0163B700E4C34A /* EventDetailView.swift in Sources */,
+				EAD172EB29BB871C00331A5A /* ManageHoleSettingsScreenView.swift in Sources */,
+				9FA7E84229C39420005FF241 /* AdminEventScreen.swift in Sources */,
+				EAD172E929BB80EA00331A5A /* BackgroundView.swift in Sources */,
+				A34BE43629B1359C001A74E0 /* Golf_Tournament_AppApp.swift in Sources */,
+				9FB1229A29BAE32100D7C857 /* Event Dashboard.swift in Sources */,
+				9F0ED83D29CCE4A1000E9904 /* TestView.swift in Sources */,
+				EAD172F429BB931900331A5A /* BigWhiteTextView.swift in Sources */,
+				6E3917C52A02A80500F52BC6 /* Create-Team.swift in Sources */,
+				6E67065129B6563B0011A30F /* CustomViewModifiers.swift in Sources */,
+				EA8A032B29BF66F30073CAF9 /* ContestDataStructure.swift in Sources */,
+				A34BE43829B1359C001A74E0 /* SignIn.swift in Sources */,
+				6E67064F29B656120011A30F /* Colors.swift in Sources */,
+				EA8A034729CB56AC0073CAF9 /* WriteToFirebase.swift in Sources */,
+				6EFCBAED29B783F400EDBB79 /* SignUp.swift in Sources */,
+				EAEF502E29F818AE00E4C34A /* UserStruct.swift in Sources */,
+				6E7C17E429E38AA500960CA3 /* HoleManagerSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A34BE43E29B1359D001A74E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A34BE43F29B1359D001A74E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34BE44129B1359D001A74E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Golf Tournament App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QUPJTJNU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braydenlemke.Golf-Tournament-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A34BE44229B1359D001A74E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Golf Tournament App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QUPJTJNU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.braydenlemke.Golf-Tournament-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A34BE42D29B1359C001A74E0 /* Build configuration list for PBXProject "Golf Tournament App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34BE43E29B1359D001A74E0 /* Debug */,
+				A34BE43F29B1359D001A74E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34BE44029B1359D001A74E0 /* Build configuration list for PBXNativeTarget "Golf Tournament App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34BE44129B1359D001A74E0 /* Debug */,
+				A34BE44229B1359D001A74E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F09D35F2A002C3A00045F6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F09D3602A002C3A00045F6F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F09D35F2A002C3A00045F6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9F09D3622A002C3A00045F6F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F09D35F2A002C3A00045F6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		9F09D3642A002C3A00045F6F /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F09D35F2A002C3A00045F6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		9F09D3662A002C3A00045F6F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F09D35F2A002C3A00045F6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9F09D3682A002C3A00045F6F /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F09D35F2A002C3A00045F6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		9F09D36A2A002C3A00045F6F /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F09D35F2A002C3A00045F6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A34BE42A29B1359C001A74E0 /* Project object */;
+}

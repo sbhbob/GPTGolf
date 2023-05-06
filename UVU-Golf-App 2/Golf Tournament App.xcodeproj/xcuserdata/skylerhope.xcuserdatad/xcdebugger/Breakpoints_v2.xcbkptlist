@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "30F43582-9CBE-453D-B636-783E8FA8186A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81693525-53E2-48F4-98CA-B8402825BED1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Golf Tournament App/Event Dashboard/AdminEventScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "81693525-53E2-48F4-98CA-B8402825BED1 - 7d289f16b2debc59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Golf_Tournament_App.User, Swift.Error&gt;) -&gt; () in closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Color, &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Color, &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt; in Golf_Tournament_App.AdminEventScreen.body.getter : some"
+                  moduleName = "Golf Tournament App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skylerhope/Documents/UVU-Golf-App/Golf%20Tournament%20App/Event%20Dashboard/AdminEventScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "862">
+               </Location>
+               <Location
+                  uuid = "81693525-53E2-48F4-98CA-B8402825BED1 - 2aab88a19dfab965"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Golf_Tournament_App.Event&gt;) -&gt; () in closure #1 (Swift.Result&lt;Golf_Tournament_App.User, Swift.Error&gt;) -&gt; () in closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Color, &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Color, &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt; in Golf_Tournament_App.AdminEventScreen.body.getter : some"
+                  moduleName = "Golf Tournament App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skylerhope/Documents/UVU-Golf-App/Golf%20Tournament%20App/Event%20Dashboard/AdminEventScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "67">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
